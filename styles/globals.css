@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #000000;
+  --panel: #0b0b0b;
+  --muted: #9ca3af;
+  --accent: #7c3aed;
+  --text: #e5e7eb;
+}
+
+html, body, #__next { height: 100%; }
+body { background: var(--bg); color: var(--text); }
+
+/* basic layout tweaks */
+.scrollbar { scrollbar-width: thin; }
